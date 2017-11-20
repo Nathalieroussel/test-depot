@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mon site en Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--menu de navigation fixe-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+                <a class="navbar-brand" href="#">Accueil</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#jquery">JQUERY</a></li>
+                    <li><a href="#php">PHP</a></li>
+                    <li><a href="#javascript">JAVASCRIPT</a></li>
+                    <li><a href="#html">HTML</a></li>
+                    <li><a href="#css">CSS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Jumbotron = entête de site-->
+    <div class="jumbotron text-center">
+        <h1>Bienvenue dans Bootstrap</h1>
+        <p>Bootstrap est le framework HTML, CSS et JS le plus populaire pour développer des projets réactifs et mobiles sur le Web.</p>
+    </div>
+
+    <!--Menu déroulant"-->
+    <div class="btn-group ">
+        <div class="btn-group text-center">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+  Boutons  <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Boutons simples</a></li>
+                <li><a href="#">Smartphone</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Trois colonnes égales-->
+    <div class="container-fluid text-center">
+        <h3>Trois colonnes égales</h3>
+        <div class="row">
+            <div class="col-sm-4 colonne-1 text-center ">
+                <h2>Colonne 1</h2>
+            </div>
+            <div class="col-sm-4 colonne-2">
+                <h2>Colonne 2</h2>
+            </div>
+            <div class="col-sm-4 colonne-3">
+                <h2>Colonne 3</h2>
+            </div>
+        </div>
+
+
+
+        <!-- Conteneur avec texte et bouton-->
+        <div class="container-fluid text-center">
+            <h3>Deux colonnes différentes</h3>
+            <div class="row">
+                <div class="col-sm-4 colonne-4">
+                    <h2>Colonne 1</h2>
+                </div>
+                <div class="col-sm-8 colonne-5">
+                    <h2>Colonne 2</h2>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Trois colonnes différentes-->
+        <div class="container-fluid text-center">
+            <h3>Trois colonnes différentes</h3>
+            <div class="row">
+                <div class="col-sm-3 colonne-6">
+                    <h2>Colonne 1</h2>
+                </div>
+                <div class="col-sm-5 colonne-7">
+                    <h2>Colonne 2</h2>
+                </div>
+                <div class="col-sm-4 colonne-8">
+                    <h2>Colonne 3</h2>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Conteneur avec image centrée et responsive-->
+        <div class="container-fluid bg-1 text-center img-responsive">
+            <h3>Conteneur avec image centrée</h3>
+            <img src="images/change-jquery-version-drupal-7.jpg" alt="Bird">
+            <h3>Image responsive</h3>
+        </div>
+    </div>
+
+    <!--Conteneur avec texte centré et bouton simple-->
+
+    <div class="container-fluid bg-2 text-center">
+        <div class="row">
+            <h3>Conteneur avec texte centré et bouton simple</h3>
+            <p>Voila le résultat</p>
+            <a href="#" class="btn btn-default btn-lg">Bouton simple</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

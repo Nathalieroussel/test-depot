@@ -1,0 +1,188 @@
+.jumbotron {
+    background-color: #f4511e;
+    /* Orange */
+    color: #ffffff;
+    padding: 100px 25px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.container-fluid {
+    padding: 0px 0px;
+
+   
+}
+
+.logo {
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0 ;
+        padding-top: 0;
+    }
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+
+.navbar {
+   margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important; 
+}
+
+
+
+
+.col-xs-12 col-sm-6 col-lg-4 {
+    background:#7cdc1b;
+    height:280px;
+}
+
+
+.col-sm-6 {
+    height: 280px;
+}
+
+.col-xs-6 {
+    text-align: center;
+}
+
+.col-xs-7 {
+    height: 500px;
+}
+
+.col-lg-4 {
+    height: 250px;
+}
+
+.col-lg-8 {
+    height: 560px;
+}
+
+
+
+.col-xs-5 {
+    height: 280px;
+}
+
+div {
+   
+}
+
+h3{
+ text-align:center;
+    margin:0px,10px,10px,10px;
+ 
+    margin-top: 0px;
+}
+
+.colonne-1 {
+    background: #7cdc1b;
+    height: 200px;
+    text-align: center;
+
+   
+   
+}
+
+.colonne-2 {
+    background:#d0ed1d;
+    height: 200px;
+    
+}
+
+.colonne-3 {
+    background: #f2f881;
+    height: 200px;
+}
+
+.colonne-4 {
+    background: #15c670;
+   
+}
+
+.colonne-5 {
+    background: #ff91e5;
+}
+
+h2 {
+   
+}
+
+.titre {
+  
+}
+
+.colonne-6 {
+    background: #ffd241;
+}
+
+.colonne-7 {
+    background: #FA5555;
+}
+
+.colonne-8 {
+    background: #68c9c9	
+}
+
+.bg-1 {
+    background:#00b1ee; 
+}
+
+/*rembourrage pour rendre la présentation plus claire*/
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.text-center {
+   
+}
+
+.btn-default {
+    
+}
+
+.row {
+    
+}
+
+.bg-2 {
+    background: #CBEC1D
+}
+
+.btn-group {
+    
+}
